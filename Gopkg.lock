@@ -4,6 +4,7 @@
 [[projects]]
   name = "github.com/aws/aws-lambda-go"
   packages = [
+    "events",
     "lambda",
     "lambda/messages",
     "lambdacontext"
@@ -11,9 +12,27 @@
   revision = "4d30d0ff60440c2d0480a15747c96ee71c3c53d4"
   version = "v1.2.0"
 
+[[projects]]
+  name = "github.com/davecgh/go-spew"
+  packages = ["spew"]
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+  version = "v1.1.0"
+
+[[projects]]
+  name = "github.com/pmezard/go-difflib"
+  packages = ["difflib"]
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/stretchr/testify"
+  packages = ["assert"]
+  revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
+  version = "v1.2.1"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b8dd0029a4fdeb7af0a8e1ea1aa7244250ec6eb9d9a98d2816e4dc05cb972b29"
+  inputs-digest = "f10d06dc6a476d3e0ee22bf5500cc6176cdf716db32bb534bb67e09a54062fbd"
   solver-name = "gps-cdcl"
   solver-version = 1
